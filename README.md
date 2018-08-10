@@ -38,6 +38,7 @@ scp ~/.ipfs/swarm.key <username>@<ip address>:<filepath>
 1. set the path of environment variable   
 ```
 export IPFS_PATH=~/.ipfs/
+
 ```
 
 2. init ipfs  
