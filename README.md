@@ -17,28 +17,32 @@ tar -xzvf ***.tar.gz
 *The internet for private of IPFS that must need key of Shared.Create key*  
 
 *  1. Get the tool of key
-
-```go get -u github.com/Kubuxu/go-ipfs-swarm-key-gen/ipfs-swarm-key-gen
+```
+go get -u github.com/Kubuxu/go-ipfs-swarm-key-gen/ipfs-swarm-key-gen
 ```
 
 *  2. Create key  
 
-```ipfs-swarm-key-gen > ~/.ipfs/swarm.key
+```
+ipfs-swarm-key-gen > ~/.ipfs/swarm.key
 ```
 
 *  3. Transfer file that of key  
 
-```scp ~/.ipfs/swarm.key <username>@<ip address>:<filepath>
+```
+scp ~/.ipfs/swarm.key <username>@<ip address>:<filepath>
 ```
 
 ##### Init  
 
 *  1. set the path of environment variable   
-```export IPFS_PATH=~/.ipfs/
+```
+export IPFS_PATH=~/.ipfs/
 ```
 
 *  2. init ipfs  
-```ipfs init
+```
+ipfs init
 ```
 
 ##### Check Info  
